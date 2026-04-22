@@ -9,7 +9,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rafiazharr17-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rafiazharr17)
 [![Gmail](https://img.shields.io/badge/Email-rafipilo17@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rafipilo17@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rafiazharr17-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rafiazharr17)
-[![BNSP](https://img.shields.io/badge/BNSP-Web_Dev_Certified-green?style=flat-square)](https://rafiazharr17.github.io)
 
 </div>
 
