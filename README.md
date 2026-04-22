@@ -59,7 +59,7 @@
 
 - Online PPDB (student enrollment), scheduling, and grade management
 - Black Box Testing + SUS evaluation for system quality assurance
-- **Stack:** Laravel · MySQL · Tailwind CSS
+- **Stack:** Node.js · React · MySQL · Tailwind CSS
 
 ---
 
@@ -68,7 +68,7 @@
 
 - Real-time queue monitoring via **WebSocket** for public service counters
 - Feature-based architecture for scalable, maintainable codebase
-- **Stack:** Node.js · WebSocket · React.js · MySQL
+- **Stack:** Laravel · WebSocket · React.js · MySQL
 
 ---
 
