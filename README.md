@@ -59,7 +59,7 @@
 
 - Online PPDB (student enrollment), scheduling, and grade management
 - Black Box Testing + SUS evaluation for system quality assurance
-- **Stack:** Node.js · React · MySQL · Tailwind CSS
+- **Stack:** Node.js · React.js · MySQL · Tailwind CSS
 
 ---
 
