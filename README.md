@@ -75,6 +75,7 @@
 - Online PPDB (student enrollment), scheduling, and grade management
 - Black Box Testing + SUS evaluation for system quality assurance
 - **Stack:** Node.js · React.js · MySQL · Tailwind CSS
+- 🔗 [Backend](https://github.com/rafiazharr17/backend-MIMTroketon.git) · [Frontend](https://github.com/rafiazharr17/frontend-MIMTroketon.git)
 
 ---
 
@@ -85,6 +86,7 @@
 - Real-time queue monitoring via **WebSocket** for public service counters
 - Feature-based architecture for scalable, maintainable codebase
 - **Stack:** Laravel · WebSocket · React.js · MySQL
+- 🔗 [Backend](https://github.com/Defarrel/backend_antrean_mpp.git) · [Frontend](https://github.com/rafiazharr17/counter-frontend.git)
 
 ---
 
@@ -95,6 +97,7 @@
 - Roles: Admin, Teacher, Student — each with distinct permissions
 - Authentication via Laravel Breeze
 - **Stack:** Laravel · Tailwind CSS · MySQL
+- 🔗 [Repository](https://github.com/rafiazharr17/platform-pembelajaran.git)
 
 ---
 
@@ -105,6 +108,7 @@
 - Framer Motion animations for fluid user experience
 - Supabase auth for personalized, secure access
 - **Stack:** React.js · Supabase · Tailwind CSS
+- 🔗 [Repository](https://github.com/rafiazharr17/cloud_hotstar.git)
 
 ---
 
@@ -114,6 +118,7 @@
 
 - JavaScript form validation + deployed on GitHub Pages
 - **Stack:** HTML · CSS · JavaScript
+- 🔗 [Repository](https://github.com/rafiazharr17/UCP2-2.git)
 
 ---
 
@@ -121,9 +126,9 @@
 
 <div align="center">
 
-![Rafi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rafiazharr17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Rafi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rafiazharr17&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafiazharr17&layout=compact&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rafiazharr17&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=rafiazharr17&theme=tokyonight&hide_border=true)
 
