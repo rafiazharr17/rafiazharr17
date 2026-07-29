@@ -5,7 +5,7 @@
 // ─── TYPED TEXT EFFECT ───────────────────────────────────────
 const phrases = [
   "Full Stack Web Developer.",
-  "Laravel & React.js Specialist.",
+  "Laravel, Node.js, & React.js Specialist.",
   "Open to Full-Time Roles.",
 ];
 
