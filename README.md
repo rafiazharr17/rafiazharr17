@@ -6,6 +6,7 @@
 <br/>
 
 <!-- Badges -->
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rafiazharr17-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rafiazharr17)
 [![Gmail](https://img.shields.io/badge/Email-rafipilo17@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rafipilo17@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rafiazharr17-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/rafiazharr17)
@@ -18,7 +19,7 @@
 
 > Detail-oriented **Full Stack Web Developer** based in Yogyakarta, Indonesia — passionate about building scalable, responsive web applications from frontend to backend.
 
-- 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta *(GPA 3.85 / 4.00)*
+- 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta _(GPA 3.85 / 4.00)_
 - 🏅 **BNSP Certified** in Web Development (2026–2029)
 - 💼 Former intern at **Bantul Regency Dept. of Communications & IT**
 - 🌐 Fluent in **Bahasa Indonesia** (Native) & **English** (Intermediate — TOEFL Pred. 601)
@@ -29,6 +30,7 @@
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -37,6 +39,7 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 ### Backend
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
@@ -44,6 +47,7 @@
 ![REST API](https://img.shields.io/badge/REST_API-000000?style=flat-square&logo=fastapi&logoColor=white)
 
 ### Tools & Workflow
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white)
@@ -53,7 +57,19 @@
 
 ## 🚀 Featured Projects
 
-### 🏫 School Management Web App *(Feb 2026 – Apr 2026)*
+### 🕌 Website TKQ An Naurah – Company Profile _(2026)_
+
+> Profile website for TKQ (Taman Kanak-kanak Al-Qur'an) An Naurah.
+
+- Institutional profile, learning programs, and contact information
+- Clean, responsive layout for easy public access
+- **Stack:** HTML · CSS · JavaScript
+- 🔗 [Repository](https://github.com/rafiazharr17/website-tkq-annaurah)
+
+---
+
+### 🏫 School Management Web App _(Feb 2026 – Apr 2026)_
+
 > Final project — full digitalization of administrative processes for MIM Troketon.
 
 - Online PPDB (student enrollment), scheduling, and grade management
@@ -62,7 +78,8 @@
 
 ---
 
-### 🏛️ Public Service Queue Management App *(Nov 2025 – Dec 2025)*
+### 🏛️ Public Service Queue Management App _(Nov 2025 – Dec 2025)_
+
 > Developed during internship at Bantul Regency Dept. of Communications & IT.
 
 - Real-time queue monitoring via **WebSocket** for public service counters
@@ -71,7 +88,8 @@
 
 ---
 
-### 📚 MateriKu – Learning Platform *(May 2025 – Jun 2025)*
+### 📚 MateriKu – Learning Platform _(May 2025 – Jun 2025)_
+
 > Centralized learning management system with role-based access control.
 
 - Roles: Admin, Teacher, Student — each with distinct permissions
@@ -80,7 +98,8 @@
 
 ---
 
-### 🎬 Cloud Hotstar – Movie Discovery *(Aug 2024 – Sep 2024)*
+### 🎬 Cloud Hotstar – Movie Discovery _(Aug 2024 – Sep 2024)_
+
 > Browse movies by genre, explore cast & trailers with smooth animations.
 
 - Framer Motion animations for fluid user experience
@@ -89,7 +108,8 @@
 
 ---
 
-### 🍰 Canela Dessert – Landing Page *(Aug 2024 – Sep 2024)*
+### 🍰 Canela Dessert – Landing Page _(Aug 2024 – Sep 2024)_
+
 > Responsive multi-page static website for a dessert brand.
 
 - JavaScript form validation + deployed on GitHub Pages
@@ -113,11 +133,13 @@
 
 ## 🏆 Certifications
 
-| Certification | Issuer | Valid |
-|---|---|---|
-| 🥇 Web Development | BNSP (Badan Nasional Sertifikasi Profesi) | 2026 – 2029 |
-| 🚀 Software Deployment | TLab, UMY | July 2025 |
-| 🌐 TOEFL Equivalent (Pred. 601) | HOPE – UMY | July 2025 |
+| Certification                                       | Issuer                                              | Valid       |
+| --------------------------------------------------- | --------------------------------------------------- | ----------- |
+| 📊 Dasar Microsoft Excel – Administrasi Perkantoran | yec.co.id (Yureka Edukasi Cipta)                    | July 2026   |
+| 🖥️ HTML5 Application Development                    | IT Specialist – Certiport / CertNexus / Pearson VUE | 2026 – 2031 |
+| 🥇 Web Development                                  | BNSP (Badan Nasional Sertifikasi Profesi)           | 2026 – 2029 |
+| 🚀 Software Deployment                              | TLab, UMY                                           | July 2025   |
+| 🌐 TOEFL Equivalent (Pred. 601)                     | HOPE – UMY                                          | July 2025   |
 
 ---
 
@@ -133,7 +155,7 @@ Feel free to reach out — I'd love to talk!
 
 ---
 
-*"Clean code, scalable architecture, and user-first design."*
+_"Clean code, scalable architecture, and user-first design."_
 
 ![Profile Views](https://komarev.com/ghpvc/?username=rafiazharr17&color=1D9E75&style=flat-square)
 

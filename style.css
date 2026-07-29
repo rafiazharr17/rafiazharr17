@@ -18,13 +18,14 @@
   --text: #1a1a1a;
   --text2: #4a4a55;
   --text3: #8a8a95;
-  --mono: 'JetBrains Mono', monospace;
-  --sans: 'Plus Jakarta Sans', sans-serif;
+  --mono: "JetBrains Mono", monospace;
+  --sans: "Plus Jakarta Sans", sans-serif;
   --radius: 12px;
   --radius-sm: 8px;
   --radius-lg: 20px;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.05);
-  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.12), 0 8px 32px rgba(0, 0, 0, 0.06);
+  --shadow-hover:
+    0 4px 16px rgba(0, 0, 0, 0.12), 0 8px 32px rgba(0, 0, 0, 0.06);
 }
 
 /* ─── RESET ─── */
@@ -110,7 +111,9 @@ nav {
   text-decoration: none;
   padding: 6px 12px;
   border-radius: 8px;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 }
 
 .nav-links a:hover {
@@ -131,7 +134,9 @@ nav {
   padding: 8px 18px;
   border-radius: 8px;
   text-decoration: none;
-  transition: background 0.2s, transform 0.15s;
+  transition:
+    background 0.2s,
+    transform 0.15s;
 }
 
 .nav-cta:hover {
@@ -166,7 +171,7 @@ section {
 }
 
 .label::before {
-  content: '';
+  content: "";
   width: 20px;
   height: 1px;
   background: var(--accent);
@@ -330,7 +335,10 @@ section {
   padding: 11px 24px;
   border-radius: 8px;
   text-decoration: none;
-  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.15s,
+    box-shadow 0.2s;
   letter-spacing: 0.01em;
 }
 
@@ -349,7 +357,10 @@ section {
   padding: 11px 24px;
   border-radius: 8px;
   text-decoration: none;
-  transition: border-color 0.2s, background 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    background 0.2s,
+    color 0.2s;
 }
 
 .btn-outline:hover {
@@ -565,7 +576,10 @@ section {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.75rem;
-  transition: box-shadow 0.25s, transform 0.25s, border-color 0.25s;
+  transition:
+    box-shadow 0.25s,
+    transform 0.25s,
+    border-color 0.25s;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
@@ -692,7 +706,9 @@ section {
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow);
-  transition: box-shadow 0.25s, transform 0.25s;
+  transition:
+    box-shadow 0.25s,
+    transform 0.25s;
 }
 
 .cert-card:hover {
@@ -712,6 +728,97 @@ section {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.cert-clickable {
+  cursor: zoom-in;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.cert-clickable:hover {
+  transform: scale(1.04);
+  filter: brightness(0.94);
+}
+
+/* ============================================================
+   CERTIFICATE LIGHTBOX MODAL
+   ============================================================ */
+.cert-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  background: rgba(10, 10, 10, 0.86);
+  webkit-backdrop-filter: blur(6px);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.cert-modal.open {
+  display: flex;
+  opacity: 1;
+}
+
+.cert-modal-img {
+  max-width: min(1100px, 92vw);
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  transform: scale(0.96);
+  transition: transform 0.25s ease;
+}
+
+.cert-modal.open .cert-modal-img {
+  transform: scale(1);
+}
+
+.cert-modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.75rem;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+
+.cert-modal-close:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .cert-modal {
+    padding: 1.25rem;
+  }
+
+  .cert-modal-close {
+    top: 1rem;
+    right: 1rem;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
 }
 
 .cert-body {
@@ -767,13 +874,17 @@ section {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 3px;
   top: 8px;
   bottom: 8px;
   width: 1px;
-  background: linear-gradient(to bottom, var(--accent), rgba(26, 110, 247, 0.1));
+  background: linear-gradient(
+    to bottom,
+    var(--accent),
+    rgba(26, 110, 247, 0.1)
+  );
 }
 
 .tl-item {
@@ -856,7 +967,7 @@ section {
 }
 
 .tl-points li::before {
-  content: '→';
+  content: "→";
   position: absolute;
   left: 0;
   color: var(--accent);
@@ -949,19 +1060,31 @@ footer {
 }
 
 @keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
 }
 
 @keyframes blink2 {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .reveal {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
 }
 
 .reveal.visible {
