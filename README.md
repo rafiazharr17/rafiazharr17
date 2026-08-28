@@ -17,7 +17,7 @@
 
 ## 🧑‍💻 About Me
 
-> Detail-oriented **Full Stack Web Developer** based in Yogyakarta, Indonesia — passionate about building scalable, responsive web applications from frontend to backend.
+> Detail-oriented **Full Stack Web Developer** based in Karawang, West Java, Indonesia — passionate about building scalable, responsive web applications from frontend to backend.
 
 - 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta _(GPA 3.85 / 4.00)_
 - 🏅 **BNSP Certified** in Web Development (2026–2029) and **Certiport Certified** in HTML5 (2026–2031)
