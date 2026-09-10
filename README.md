@@ -43,13 +43,18 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-000000?style=flat-square&logo=fastapi&logoColor=white)
 
-### Tools & Workflow
+### Tools & Deployment
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
@@ -57,14 +62,16 @@
 
 ## 🚀 Featured Projects
 
-### 🕌 Website TKQ An Naurah – Company Profile _(2026)_
+### 🕌 Website TKQ An Naurah – Official Portal & Online PPDB _(2026)_
 
-> Profile website for TKQ (Taman Kanak-kanak Al-Qur'an) An Naurah.
+> Official institutional website and digital student enrollment (PPDB Online) system for TKQ An-Naurah Islamic School.
 
-- Institutional profile, learning programs, and contact information
-- Clean, responsive layout for easy public access
-- **Stack:** HTML · CSS · JavaScript
-- 🔗 [Repository](https://github.com/rafiazharr17/website-tkq-annaurah)
+- Full-stack school portal featuring institutional profile, curriculum showcase, and automated digital PPDB registration
+- Secure backend REST API powered by **Express.js 5**, **Node.js**, and **MySQL** with JWT authentication & Helmet security protection
+- Modern, high-performance frontend built with **React 19**, **Vite**, **Tailwind CSS v4**, Sonner toasts, and flatpickr
+- Deployed and live in production: [TKQ An-Naurah Islamic School](https://annaurahislamicschool.sch.id/) via **Cloudflare Pages** (Frontend) & **Railway** (Backend)
+- **Stack:** React 19 · Vite · Express.js 5 · Node.js · MySQL · Tailwind CSS v4 · Cloudflare Pages · Railway
+- 🔗 [Live Demo](https://annaurahislamicschool.sch.id/) · [Repository](https://github.com/rafiazharr17/website-tkq-annaurah)
 
 ---
 
