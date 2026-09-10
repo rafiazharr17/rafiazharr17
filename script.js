@@ -28,7 +28,7 @@ const i18nData = {
     about_p2:
       "Mahir membangun aplikasi scalable menggunakan teknologi modern di sisi frontend maupun backend, dengan pemahaman mendalam tentang GitHub untuk version control dan pengembangan kolaboratif.",
     about_p3:
-      "Saat ini sedang menyelesaikan gelar S1 Teknologi Informasi di <strong>Universitas Muhammadiyah Yogyakarta</strong> dengan IPK 3.85/4.00.",
+      "Telah menyelesaikan gelar S1 Teknologi Informasi di <strong>Universitas Muhammadiyah Yogyakarta</strong> dengan IPK 3.85/4.00.",
     projects_title: 'Proyek yang <span class="muted">Telah Dibangun</span>',
     filter_all: "Semua",
     filter_fullstack: "Full Stack",
@@ -112,7 +112,7 @@ const i18nData = {
     about_p2:
       "Proficient in engineering scalable applications using modern technologies across both frontend and backend, with a deep understanding of GitHub for version control and collaborative development.",
     about_p3:
-      "Currently completing a Bachelor's degree in Information Technology at <strong>Universitas Muhammadiyah Yogyakarta</strong> with a GPA of 3.85 / 4.00.",
+      "Graduated with a Bachelor's degree in Information Technology from <strong>Universitas Muhammadiyah Yogyakarta</strong> with a GPA of 3.85 / 4.00.",
     projects_title: 'Featured <span class="muted">Projects</span>',
     filter_all: "All",
     filter_fullstack: "Full Stack",
