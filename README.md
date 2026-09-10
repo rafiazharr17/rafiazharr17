@@ -21,7 +21,7 @@
 
 - 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta _(GPA 3.85 / 4.00)_
 - 🏅 **BNSP Certified** in Web Development (2026–2029) and **Certiport Certified** in HTML5 (2026–2031)
-- 💼 MIS/IT Web Developer Intern at **PT. Inoac Polytechno Indonesia - Karawang** & Former intern at **Bantul Regency Dept. of Communications & IT**
+- 💼 MIS/IT Staff Intern at **PT. Inoac Polytechno Indonesia - Karawang** & Former intern at **Bantul Regency Dept. of Communications & IT**
 - 🌐 Fluent in **Bahasa Indonesia** (Native) & **English** (Intermediate — TOEFL Pred. 601)
 - 📬 Open to full-time **Web Developer** roles
 
