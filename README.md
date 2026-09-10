@@ -21,7 +21,7 @@
 
 - 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta _(GPA 3.85 / 4.00)_
 - 🏅 **BNSP Certified** in Web Development (2026–2029) and **Certiport Certified** in HTML5 (2026–2031)
-- 💼 Former intern at **Bantul Regency Dept. of Communications & IT**
+- 💼 MIS/IT Web Developer Intern at **PT. Inoac Polytechno Indonesia - Karawang** & Former intern at **Bantul Regency Dept. of Communications & IT**
 - 🌐 Fluent in **Bahasa Indonesia** (Native) & **English** (Intermediate — TOEFL Pred. 601)
 - 📬 Open to full-time **Web Developer** roles
 
@@ -34,6 +34,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -61,6 +62,17 @@
 ---
 
 ## 🚀 Featured Projects
+
+### 📊 Stock Monitoring & Delivery Control _(2026)_
+
+> Replaces manual spreadsheet records at PT. Inoac Polytechno Indonesia Plant #2 with an enterprise real-time monitoring platform built with React 19, TypeScript, and Tailwind CSS integrated via REST API. Features Recharts data visualization and Shop-Floor TV Displays to deliver instant Plan vs Actual metrics and accelerate Finish Good inventory reconciliation across divisions (PPIC, Warehouse, Logistics).
+
+- Enterprise web platform built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS** consuming centralized REST APIs
+- Features dynamic **Recharts** operational data telemetry and dedicated **Shop-Floor TV Displays** for plant-wide wall monitors
+- Instant Plan vs Actual metric visibility, accelerating Finish Good stock reconciliation and streamlining daily coordination across PPIC, Warehouse, and Logistics
+- **Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Recharts · REST API
+
+---
 
 ### 🕌 Website TKQ An Naurah – Official Portal & Online PPDB _(2026)_
 

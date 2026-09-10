@@ -12,7 +12,8 @@ const i18nData = {
     nav_testimonials: "Testimoni",
     nav_contact: "Contact",
     nav_cta: "Hire Me",
-    hero_available: '<span class="available-dot"></span> Available for full-time roles',
+    hero_available:
+      '<span class="available-dot"></span> Available for full-time roles',
     hero_desc:
       "Full Stack Web Developer berbasis di Karawang, Jawa Barat. Membangun aplikasi yang scalable dan responsif menggunakan Laravel, React.js &amp; Node.js. Bersertifikasi BNSP dan Certiport.",
     hero_btn_projects:
@@ -31,6 +32,37 @@ const i18nData = {
     link_github: "Lihat di GitHub →",
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
+    fallback_hint: "Screenshot Segera Hadir",
+    proj_sub_1:
+      "Sistem Monitoring Produksi, Inventaris &amp; Logistik Real-Time",
+    proj_desc_1:
+      "Menggantikan pencatatan spreadsheet manual di PT. Inoac Polytechno Indonesia Plant #2 dengan platform monitoring real-time berbasis React 19, TypeScript, dan Tailwind CSS yang terintegrasi REST API. Dilengkapi visualisasi Recharts dan Shop-Floor TV Display untuk menyajikan metrik Plan vs Actual secara instan serta mempercepat rekonsiliasi stok Finish Good lintas divisi (PPIC, Warehouse, Logistik).",
+    proj_sub_2: "Website Resmi &amp; Sistem Informasi PPDB Online",
+    proj_desc_2:
+      "Proses publikasi profil lembaga dan pendaftaran santri baru (PPDB) di TKQ An Naurah sebelumnya masih manual dan belum terintegrasi sistem digital. Kami merancang platform full-stack menggunakan React 19, Vite, dan Tailwind CSS di sisi frontend, didukung backend REST API Express.js 5, Node.js, dan MySQL yang diamankan otentikasi JWT serta proteksi Helmet. Solusi ini berhasil mengotomatiskan alur PPDB online secara terstruktur sekaligus mempermudah wali santri mengakses info program secara mandiri.",
+    proj_sub_3: "Final Project — Universitas Muhammadiyah Yogyakarta",
+    proj_desc_3:
+      "Administrasi akademik dan pendaftaran santri di MIM Troketon sebelumnya terkendala pencatatan manual yang rentan kekeliruan data dan lambat. Kami mengembangkan aplikasi manajemen sekolah full-stack menggunakan Node.js, React.js, Tailwind CSS, dan MySQL dengan modul PPDB online, manajemen nilai, dan penjadwalan terintegrasi. Sistem divalidasi keandalannya melalui Black Box Testing dan mencatatkan evaluasi usability yang tinggi pada pengujian System Usability Scale (SUS).",
+    proj_sub_4: "Magang — Diskominfo Kab. Bantul",
+    proj_desc_4:
+      "Alur antrean layanan publik tatap muka di loket instansi membutuhkan pembaruan nomor pemanggilan instan di monitor display tanpa jeda refresh halaman. Kami mengembangkan aplikasi manajemen antrean real-time berbasis WebSocket yang terhubung ke backend Node.js dan antarmuka modular React.js berarsitektur feature-based. Hasilnya, pemanggilan antrean berlangsung tanpa latensi (zero-delay), meningkatkan efisiensi kerja petugas loket, dan menciptakan ruang tunggu yang tertib bagi masyarakat.",
+    proj_sub_5: "Full Stack Web Developer",
+    proj_desc_5:
+      "Distribusi modul pembelajaran dan pengumpulan tugas kelas yang tersebar di aplikasi perpesanan menyulitkan pengarsipan serta penilaian tugas siswa. Kami membangun platform LMS terpusat berbasis Laravel, MySQL, dan Tailwind CSS dengan sistem otentikasi aman Laravel Breeze serta Role-Based Access Control (RBAC) untuk 3 role pengguna: Admin, Guru, dan Siswa. Platform ini memusatkan interaksi kelas, repositori modul materi, dan pelacakan tenggat tugas dalam satu portal terstruktur.",
+    proj_sub_6: "Movie Discovery Platform",
+    proj_desc_6:
+      "Pengguna sering kali kesulitan menemukan rekomendasi film yang sesuai karena katalog informasi yang kaku dan kurang interaktif. Kami merancang aplikasi web penjelajah film modern berbasis React.js dan Tailwind CSS yang diperkaya animasi mikro mulus dari Framer Motion serta integrasi autentikasi personal pengguna via Supabase. Aplikasi ini menghadirkan pengalaman eksplorasi katalog film yang cepat, responsif, dan kaya visual mulai dari pencarian genre hingga cuplikan trailer.",
+    proj_sub_7: "Brand Landing Page",
+    proj_desc_7:
+      "UMKM kuliner Canela Dessert memerlukan media promosi digital multi-halaman yang menarik secara visual untuk memperkuat identitas brand dan memfasilitasi kontak pelanggan. Kami mengembangkan website multi-page responsif berbasis HTML, CSS, dan validasi form interaktif dengan JavaScript murni, lalu di-deploy ke GitHub Pages untuk akses publik instan. Website ini berhasil memperkuat daya tarik visual produk dessert sekaligus menyediakan kanal pemesanan online yang mudah dijangkau konsumen.",
+    exp_role_1: "MIS / IT Web Developer Intern",
+    exp_period_1: "Agu 2026 – Sekarang",
+    exp_point_1_1:
+      "Merancang dan mengembangkan frontend enterprise <strong>Stock Monitoring &amp; Delivery Control</strong> menggunakan React 19, TypeScript, Vite, dan Tailwind CSS.",
+    exp_point_1_2:
+      "Mengintegrasikan sistem Shop-Floor TV Display dan visualisasi Recharts untuk monitoring metrik Plan vs Actual vs On Process secara real-time pada monitor dinding pabrik.",
+    exp_point_1_3:
+      "Mengoptimalkan koordinasi operasional harian lintas divisi (PPIC, Warehouse, Logistik) serta mempercepat proses rekonsiliasi stok Finish Good.",
     certs_title: 'Sertifikasi <span class="muted">&amp; Pencapaian</span>',
     exp_title: 'Pengalaman <span class="muted">&amp; Pendidikan</span>',
     testi_label: "Recommendations",
@@ -58,7 +90,8 @@ const i18nData = {
     nav_testimonials: "Testimonials",
     nav_contact: "Contact",
     nav_cta: "Hire Me",
-    hero_available: '<span class="available-dot"></span> Available for full-time roles',
+    hero_available:
+      '<span class="available-dot"></span> Available for full-time roles',
     hero_desc:
       "Full Stack Web Developer based in Karawang, West Java. Building scalable and responsive web applications using Laravel, React.js &amp; Node.js. BNSP and Certiport Certified.",
     hero_btn_projects:
@@ -77,10 +110,42 @@ const i18nData = {
     link_github: "View on GitHub →",
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
+    fallback_hint: "Screenshot Coming Soon",
+    proj_sub_1:
+      "Real-Time Production, Inventory &amp; Logistics Monitoring System",
+    proj_desc_1:
+      "Replaces manual spreadsheet records at PT. Inoac Polytechno Indonesia Plant #2 with an enterprise real-time monitoring platform built with React 19, TypeScript, and Tailwind CSS integrated via REST API. Features Recharts data visualization and Shop-Floor TV Displays to deliver instant Plan vs Actual metrics and accelerate Finish Good inventory reconciliation across divisions (PPIC, Warehouse, Logistics).",
+    proj_sub_2: "Official Website &amp; Online PPDB Information System",
+    proj_desc_2:
+      "Previously, institutional profile publishing and student enrollment (PPDB) at TKQ An Naurah were manual and unintegrated. We engineered a full-stack platform using React 19, Vite, and Tailwind CSS on the frontend, powered by an Express.js 5, Node.js, and MySQL REST API secured with JWT authentication and Helmet protection. This automated online PPDB workflows while enabling parents to seamlessly access program details independently.",
+    proj_sub_3: "Final Project — Universitas Muhammadiyah Yogyakarta",
+    proj_desc_3:
+      "Academic administration and student enrollment at MIM Troketon previously suffered from error-prone and slow manual record-keeping. We built a full-stack school management web app using Node.js, React.js, Tailwind CSS, and MySQL featuring online PPDB, grade management, and integrated scheduling. The system proved robust through Black Box Testing and achieved high usability scores on System Usability Scale (SUS) evaluations.",
+    proj_sub_4: "Internship — Bantul Regency Dept. of Communications &amp; IT",
+    proj_desc_4:
+      "In-person public service counters required zero-latency queue calling displayed instantly on monitors without page refreshes. We developed a real-time queue management system with WebSockets, a Node.js backend, and a feature-based React.js modular interface. The result delivered zero-delay queue updates, boosting counter officer productivity and creating an orderly waiting lounge for visitors.",
+    proj_sub_5: "Full Stack Web Developer",
+    proj_desc_5:
+      "Distributing learning materials and collecting homework via messaging apps made archiving and grading cumbersome. We built a centralized LMS platform using Laravel, MySQL, and Tailwind CSS with secure Laravel Breeze authentication and Role-Based Access Control (RBAC) across 3 roles: Admin, Teacher, and Student. The platform unifies classroom interactions, courseware repositories, and assignment deadlines into a single structured portal.",
+    proj_sub_6: "Movie Discovery Platform",
+    proj_desc_6:
+      "Users often struggle to find personalized movie recommendations due to static and clunky catalogs. We designed a modern movie discovery web app using React.js and Tailwind CSS, enriched with fluid micro-animations via Framer Motion and user authentication via Supabase. The app delivers a fast, responsive, and visually engaging browsing experience from genre exploration to trailer previews.",
+    proj_sub_7: "Brand Landing Page",
+    proj_desc_7:
+      "Culinary SME Canela Dessert required a visually compelling multi-page digital presence to strengthen brand identity and facilitate customer inquiries. We developed a responsive multi-page website built with HTML, CSS, and interactive vanilla JavaScript form validation, deployed to GitHub Pages for instant public access. The site elevated brand appeal while providing customers with an accessible online ordering channel.",
+    exp_role_1: "MIS / IT Web Developer Intern",
+    exp_period_1: "Aug 2026 – Present",
+    exp_point_1_1:
+      "Engineered enterprise frontend for <strong>Stock Monitoring &amp; Delivery Control</strong> using React 19, TypeScript, Vite, and Tailwind CSS.",
+    exp_point_1_2:
+      "Integrated Shop-Floor TV Display and Recharts visualizations for real-time Plan vs Actual vs On Process monitoring on factory wall displays.",
+    exp_point_1_3:
+      "Streamlined daily operational coordination across PPIC, Warehouse, and Logistics divisions while accelerating Finish Good inventory reconciliation.",
     certs_title: 'Certifications <span class="muted">&amp; Credentials</span>',
     exp_title: 'Experience <span class="muted">&amp; Education</span>',
     testi_label: "Recommendations",
-    testi_title: 'Testimonials <span class="muted">&amp; Recommendations</span>',
+    testi_title:
+      'Testimonials <span class="muted">&amp; Recommendations</span>',
     testi_quote_1:
       '"Rafi demonstrated great dedication and initiative during his internship. The real-time queue management system with WebSockets he developed proved responsive, stable, and greatly aided our public service counters."',
     testi_role_1: "Bantul Regency Dept. of Communications &amp; IT",
