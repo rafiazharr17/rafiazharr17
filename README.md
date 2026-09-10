@@ -17,7 +17,11 @@
 
 ## 🧑‍💻 About Me
 
-> Detail-oriented **Full Stack Web Developer** based in Karawang, West Java, Indonesia — passionate about building scalable, responsive web applications from frontend to backend.
+> Detail-oriented **Full Stack Web Developer** with a strong foundation in web development, system design, and API integration.
+>
+> Proficient in building scalable applications using modern technologies across both frontend and backend, with a deep understanding of GitHub for version control and collaborative development.
+>
+> Currently completing a Bachelor's degree in **Information Technology** at **Universitas Muhammadiyah Yogyakarta** with a GPA of **3.85 / 4.00**.
 
 - 🎓 Bachelor's in **Information Technology** — Universitas Muhammadiyah Yogyakarta _(GPA 3.85 / 4.00)_
 - 🏅 **BNSP Certified** in Web Development (2026–2029) and **Certiport Certified** in HTML5 (2026–2031)

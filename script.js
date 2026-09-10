@@ -23,6 +23,12 @@ const i18nData = {
     hero_btn_contact:
       '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><span>Hubungi Saya</span>',
     about_title: 'Tentang <span class="muted">Saya</span>',
+    about_p1:
+      "Saya adalah <strong>Full Stack Web Developer</strong> yang berorientasi pada detail, dengan dasar yang kuat dalam pengembangan web, desain sistem, dan integrasi API.",
+    about_p2:
+      "Mahir membangun aplikasi scalable menggunakan teknologi modern di sisi frontend maupun backend, dengan pemahaman mendalam tentang GitHub untuk version control dan pengembangan kolaboratif.",
+    about_p3:
+      "Saat ini sedang menyelesaikan gelar S1 Teknologi Informasi di <strong>Universitas Muhammadiyah Yogyakarta</strong> dengan IPK 3.85/4.00.",
     projects_title: 'Proyek yang <span class="muted">Telah Dibangun</span>',
     filter_all: "Semua",
     filter_fullstack: "Full Stack",
@@ -55,7 +61,7 @@ const i18nData = {
     proj_sub_7: "Brand Landing Page",
     proj_desc_7:
       "UMKM kuliner Canela Dessert memerlukan media promosi digital multi-halaman yang menarik secara visual untuk memperkuat identitas brand dan memfasilitasi kontak pelanggan. Kami mengembangkan website multi-page responsif berbasis HTML, CSS, dan validasi form interaktif dengan JavaScript murni, lalu di-deploy ke GitHub Pages untuk akses publik instan. Website ini berhasil memperkuat daya tarik visual produk dessert sekaligus menyediakan kanal pemesanan online yang mudah dijangkau konsumen.",
-    exp_role_1: "MIS / IT Web Developer Intern",
+    exp_role_1: "MIS / IT Staff Intern",
     exp_period_1: "Agu 2026 – Sekarang",
     exp_point_1_1:
       "Merancang dan mengembangkan frontend enterprise <strong>Stock Monitoring &amp; Delivery Control</strong> menggunakan React 19, TypeScript, Vite, dan Tailwind CSS.",
@@ -101,6 +107,12 @@ const i18nData = {
     hero_btn_contact:
       '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><span>Contact Me</span>',
     about_title: 'About <span class="muted">Me</span>',
+    about_p1:
+      "I am a detail-oriented <strong>Full Stack Web Developer</strong> with a strong foundation in web development, system design, and API integration.",
+    about_p2:
+      "Proficient in engineering scalable applications using modern technologies across both frontend and backend, with a deep understanding of GitHub for version control and collaborative development.",
+    about_p3:
+      "Currently completing a Bachelor's degree in Information Technology at <strong>Universitas Muhammadiyah Yogyakarta</strong> with a GPA of 3.85 / 4.00.",
     projects_title: 'Featured <span class="muted">Projects</span>',
     filter_all: "All",
     filter_fullstack: "Full Stack",
@@ -133,7 +145,7 @@ const i18nData = {
     proj_sub_7: "Brand Landing Page",
     proj_desc_7:
       "Culinary SME Canela Dessert required a visually compelling multi-page digital presence to strengthen brand identity and facilitate customer inquiries. We developed a responsive multi-page website built with HTML, CSS, and interactive vanilla JavaScript form validation, deployed to GitHub Pages for instant public access. The site elevated brand appeal while providing customers with an accessible online ordering channel.",
-    exp_role_1: "MIS / IT Web Developer Intern",
+    exp_role_1: "MIS / IT Staff Intern",
     exp_period_1: "Aug 2026 – Present",
     exp_point_1_1:
       "Engineered enterprise frontend for <strong>Stock Monitoring &amp; Delivery Control</strong> using React 19, TypeScript, Vite, and Tailwind CSS.",
