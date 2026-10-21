@@ -338,7 +338,62 @@
         </div>
 
         <div class="projects-grid">
-          <!-- Proyek 1: Job Setup Verification (Full Stack) -->
+          <!-- Proyek 1: Management Information System (MIS) Aset (Full Stack) -->
+          <div class="proj-card reveal" data-type="fullstack">
+            <div class="proj-img-wrap">
+              <img
+                src="images/projects/asset-mis.jpeg"
+                alt="Screenshot Management Information System (MIS) Aset"
+                class="proj-img"
+                loading="lazy"
+                onerror="
+                  this.classList.add('img-hidden');
+                  this.nextElementSibling.classList.remove('fallback-hidden');
+                "
+                onload="
+                  this.classList.remove('img-hidden');
+                  this.nextElementSibling.classList.add('fallback-hidden');
+                "
+              />
+              <div class="proj-img-fallback fallback-hidden">
+                <div class="fallback-badge">Project Preview</div>
+                <div class="fallback-title" data-i18n="mis_asset_fallback_title">
+                  Management Information System (MIS) Aset
+                </div>
+                <div class="fallback-hint" data-i18n="mis_asset_fallback_hint">
+                  Asset management system
+                </div>
+              </div>
+            </div>
+            <div class="proj-top">
+              <div class="proj-type-badge">Full Stack</div>
+              <div class="proj-year">2026</div>
+            </div>
+            <div class="proj-title" data-i18n="mis_asset_title">
+              Management Information System (MIS) Aset
+            </div>
+            <div class="proj-subtitle" data-i18n="proj_sub_mis_asset">
+              Centralized IT Asset Inventory Management
+            </div>
+            <p class="proj-desc" data-i18n="proj_desc_mis_asset">
+              Django-based web application for managing IT asset inventory,
+              asset status, ownership, locations, and organizational relationships
+              in one centralized system. It provides dashboard summaries,
+              multi-attribute asset search, audit trail, QR code identification,
+              and asset memo printing.
+            </p>
+            <div class="proj-stack">
+              <span class="stack-tag">Python 3.11</span>
+              <span class="stack-tag">Django 5.2</span>
+              <span class="stack-tag">Django REST Framework</span>
+              <span class="stack-tag">PostgreSQL 14</span>
+              <span class="stack-tag">Tailwind CSS</span>
+              <span class="stack-tag">Docker</span>
+              <span class="stack-tag">Nginx</span>
+            </div>
+          </div>
+
+          <!-- Proyek 2: Job Setup Verification (Full Stack) -->
           <div class="proj-card reveal" data-type="fullstack">
             <div class="proj-img-wrap">
               <img
@@ -941,6 +996,12 @@
                 mencakup validasi parameter Shift 1 dan Shift 2, observasi suhu
                 dan Release Agent, serta approval berurutan dengan tanda tangan
                 digital menggunakan PHP dan MySQL.
+              </li>
+              <li data-i18n="exp_point_1_3">
+                Mengembangkan <strong>Management Information System (MIS) Aset</strong>
+                untuk mengelola inventaris aset TI, dashboard, pencarian aset,
+                audit trail, QR code, dan pencetakan memo aset menggunakan
+                Python, Django, PostgreSQL, Docker, dan Nginx.
               </li>
             </ul>
           </div>

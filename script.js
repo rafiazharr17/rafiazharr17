@@ -39,6 +39,12 @@ const i18nData = {
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
     fallback_hint: "Screenshot Segera Hadir",
+    mis_asset_fallback_title: "Management Information System (MIS) Aset",
+    mis_asset_fallback_hint: "Sistem manajemen aset",
+    mis_asset_title: "Management Information System (MIS) Aset",
+    proj_sub_mis_asset: "Manajemen Inventaris Aset TI Terpusat",
+    proj_desc_mis_asset:
+      "Aplikasi web berbasis Django untuk mengelola inventaris aset TI, status aset, penanggung jawab, lokasi, dan relasi organisasi dalam satu sistem terpusat. Menyediakan ringkasan dashboard, pencarian multi-atribut, audit trail, identifikasi QR code, dan pencetakan memo aset.",
     stock_monitoring_title: "Monitoring Stok &amp; Kontrol Delivery",
     job_setup_title: "Verifikasi Job Setup",
     job_setup_fallback_title: "Verifikasi Job Setup",
@@ -74,6 +80,8 @@ const i18nData = {
       "Mengembangkan frontend enterprise untuk <strong>Stock Monitoring &amp; Delivery Control</strong> dengan React 19, TypeScript, Vite, dan Tailwind CSS, termasuk Dashboard Plan vs Actual vs On Process serta Shop-Floor TV Display untuk kebutuhan PPIC, Warehouse, dan Logistik.",
     exp_point_1_2:
       "Mengembangkan <strong>Job Setup Verification</strong> untuk mendigitalisasi verifikasi Form F-PR10-HR09 pada mesin HR7, mencakup validasi parameter Shift 1 dan Shift 2, observasi suhu dan Release Agent, serta approval berurutan dengan tanda tangan digital menggunakan PHP dan MySQL.",
+    exp_point_1_3:
+      "Mengembangkan <strong>Management Information System (MIS) Aset</strong> untuk mengelola inventaris aset TI, dashboard, pencarian aset, audit trail, QR code, dan pencetakan memo aset menggunakan Python, Django, PostgreSQL, Docker, dan Nginx.",
     certs_title: 'Sertifikasi <span class="muted">&amp; Pencapaian</span>',
     exp_title: 'Pengalaman <span class="muted">&amp; Pendidikan</span>',
     testi_label: "Recommendations",
@@ -128,6 +136,12 @@ const i18nData = {
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
     fallback_hint: "Screenshot Coming Soon",
+    mis_asset_fallback_title: "Management Information System (MIS) Aset",
+    mis_asset_fallback_hint: "Asset management system",
+    mis_asset_title: "Management Information System (MIS) Aset",
+    proj_sub_mis_asset: "Centralized IT Asset Inventory Management",
+    proj_desc_mis_asset:
+      "Django-based web application for managing IT asset inventory, asset status, ownership, locations, and organizational relationships in one centralized system. It provides dashboard summaries, multi-attribute asset search, audit trail, QR code identification, and asset memo printing.",
     stock_monitoring_title: "Stock Monitoring &amp; Delivery Control",
     job_setup_title: "Job Setup Verification",
     job_setup_fallback_title: "Job Setup Verification",
@@ -163,6 +177,8 @@ const i18nData = {
       "Engineered the enterprise frontend for <strong>Stock Monitoring &amp; Delivery Control</strong> using React 19, TypeScript, Vite, and Tailwind CSS, including Plan vs Actual vs On Process dashboards and Shop-Floor TV Displays for PPIC, Warehouse, and Logistics operations.",
     exp_point_1_2:
       "Developed <strong>Job Setup Verification</strong> to digitize Form F-PR10-HR09 verification for the HR7 machine, covering Shift 1 and Shift 2 parameter validation, temperature and Release Agent observations, and sequential approval with digital signatures using PHP and MySQL.",
+    exp_point_1_3:
+      "Developed <strong>Management Information System (MIS) Aset</strong> to manage IT asset inventory, dashboards, asset search, audit trails, QR codes, and asset memo printing using Python, Django, PostgreSQL, Docker, and Nginx.",
     certs_title: 'Certifications <span class="muted">&amp; Credentials</span>',
     exp_title: 'Experience <span class="muted">&amp; Education</span>',
     testi_label: "Recommendations",

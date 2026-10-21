@@ -67,6 +67,18 @@
 
 ## 🚀 Featured Projects
 
+### 🖥️ Management Information System (MIS) Aset _(2026)_
+
+> Django-based web application for managing IT asset inventory, asset status, ownership, locations, and organizational relationships in one centralized system.
+
+- Centralized asset inventory dashboard with summaries by type, status, condition, department, and location
+- Multi-attribute asset search covering asset code, serial number, MAC address, IP address, brand, user, department, location, and software
+- Asset detail pages with hardware specifications, software records, QR code identification, audit trail, and change history
+- Supports asset registration, duplicate serial/MAC validation, QR label generation, and asset memo printing
+- **Stack:** Python 3.11 · Django 5.2 · Django REST Framework · PostgreSQL 14 · Django Templates · Tailwind CSS · Docker · Nginx
+
+---
+
 ### ✅ Job Setup Verification _(2026)_
 
 > Responsive web application that digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine.
