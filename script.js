@@ -82,6 +82,10 @@ const i18nData = {
       "Mengembangkan <strong>Job Setup Verification</strong> untuk mendigitalisasi verifikasi Form F-PR10-HR09 pada mesin HR7, mencakup validasi parameter Shift 1 dan Shift 2, observasi suhu dan Release Agent, serta approval berurutan dengan tanda tangan digital menggunakan PHP dan MySQL.",
     exp_point_1_3:
       "Mengembangkan <strong>Management Information System (MIS) Aset</strong> untuk mengelola inventaris aset TI, dashboard, pencarian aset, audit trail, QR code, dan pencetakan memo aset menggunakan Python, Django, PostgreSQL, Docker, dan Nginx.",
+    exp_role_freelance: "Freelance",
+    exp_period_freelance: "2026 – Sekarang",
+    exp_point_freelance_1:
+      "Mengembangkan <strong>Website TKQ An Naurah</strong> dan sistem PPDB online menggunakan React, Vite, Tailwind CSS, Express.js, Node.js, dan MySQL.",
     certs_title: 'Sertifikasi <span class="muted">&amp; Pencapaian</span>',
     exp_title: 'Pengalaman <span class="muted">&amp; Pendidikan</span>',
     testi_label: "Recommendations",
@@ -179,6 +183,10 @@ const i18nData = {
       "Developed <strong>Job Setup Verification</strong> to digitize Form F-PR10-HR09 verification for the HR7 machine, covering Shift 1 and Shift 2 parameter validation, temperature and Release Agent observations, and sequential approval with digital signatures using PHP and MySQL.",
     exp_point_1_3:
       "Developed <strong>Management Information System (MIS) Aset</strong> to manage IT asset inventory, dashboards, asset search, audit trails, QR codes, and asset memo printing using Python, Django, PostgreSQL, Docker, and Nginx.",
+    exp_role_freelance: "Freelance",
+    exp_period_freelance: "2026 – Present",
+    exp_point_freelance_1:
+      "Developed the <strong>TKQ An Naurah Website</strong> and online PPDB system using React, Vite, Tailwind CSS, Express.js, Node.js, and MySQL.",
     certs_title: 'Certifications <span class="muted">&amp; Credentials</span>',
     exp_title: 'Experience <span class="muted">&amp; Education</span>',
     testi_label: "Recommendations",
