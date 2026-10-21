@@ -338,7 +338,60 @@
         </div>
 
         <div class="projects-grid">
-          <!-- Proyek 1: Stock Monitoring & Delivery Control (Frontend) -->
+          <!-- Proyek 1: Job Setup Verification (Full Stack) -->
+          <div class="proj-card reveal" data-type="fullstack">
+            <div class="proj-img-wrap">
+              <img
+                src="images/projects/job-setup-verification.jpeg"
+                alt="Screenshot Job Setup Verification"
+                class="proj-img"
+                loading="lazy"
+                onerror="
+                  this.classList.add('img-hidden');
+                  this.nextElementSibling.classList.remove('fallback-hidden');
+                "
+                onload="
+                  this.classList.remove('img-hidden');
+                  this.nextElementSibling.classList.add('fallback-hidden');
+                "
+              />
+              <div class="proj-img-fallback fallback-hidden">
+                <div class="fallback-badge">Project Preview</div>
+                <div class="fallback-title" data-i18n="job_setup_fallback_title">
+                  Job Setup Verification
+                </div>
+                <div class="fallback-hint" data-i18n="job_setup_fallback_hint">
+                  Production workflow system
+                </div>
+              </div>
+            </div>
+            <div class="proj-top">
+              <div class="proj-type-badge">Full Stack</div>
+              <div class="proj-year">2026</div>
+            </div>
+            <div class="proj-title" data-i18n="job_setup_title">
+              Job Setup Verification
+            </div>
+            <div class="proj-subtitle" data-i18n="proj_sub_job_setup">
+              Digital Job Setup Control &amp; Approval Workflow
+            </div>
+            <p class="proj-desc" data-i18n="proj_desc_job_setup">
+              Sistem ini mendigitalisasi verifikasi Job Setup untuk Form
+              F-PR10-HR09 pada mesin HR7. Sistem memvalidasi parameter Shift 1
+              dan Shift 2 terhadap standar master, mencatat observasi suhu dan
+              Release Agent, serta mengelola approval berurutan oleh Operator,
+              Section Head, Quality, Engineer, dan Admin dengan tanda tangan
+              digital.
+            </p>
+            <div class="proj-stack">
+              <span class="stack-tag">PHP</span>
+              <span class="stack-tag">MySQL</span>
+              <span class="stack-tag">Session Auth</span>
+              <span class="stack-tag">Responsive UI</span>
+            </div>
+          </div>
+
+          <!-- Proyek 2: Stock Monitoring & Delivery Control (Frontend) -->
           <div class="proj-card reveal" data-type="frontend">
             <div class="proj-img-wrap">
               <img
@@ -357,24 +410,16 @@
               />
               <div class="proj-img-fallback">
                 <div class="fallback-badge">Project Preview</div>
-                <div class="fallback-title">
-                  Stock Monitoring &amp; Delivery Control
-                </div>
-                <div class="fallback-hint" data-i18n="fallback_hint">
-                  Screenshot Segera Hadir
-                </div>
+                <div class="fallback-title">Stock Monitoring &amp; Delivery Control</div>
+                <div class="fallback-hint" data-i18n="fallback_hint">Screenshot Segera Hadir</div>
               </div>
             </div>
             <div class="proj-top">
               <div class="proj-type-badge">Frontend</div>
               <div class="proj-year">2026</div>
             </div>
-            <div class="proj-title" data-i18n="stock_monitoring_title">
-              Stock Monitoring &amp; Delivery Control
-            </div>
-            <div class="proj-subtitle" data-i18n="proj_sub_1">
-              Sistem Kontrol Pabrik &amp; Traceability End-to-End
-            </div>
+            <div class="proj-title" data-i18n="stock_monitoring_title">Stock Monitoring &amp; Delivery Control</div>
+            <div class="proj-subtitle" data-i18n="proj_sub_1">Sistem Kontrol Pabrik &amp; Traceability End-to-End</div>
             <p class="proj-desc" data-i18n="proj_desc_1">
               Platform kontrol pabrik dan traceability end-to-end untuk PT. Inoac
               Polytechno Indonesia. Menggantikan spreadsheet dan pencarian ERP
@@ -394,52 +439,6 @@
               <span class="stack-tag">React Router 7</span>
               <span class="stack-tag">Axios</span>
               <span class="stack-tag">Laravel REST API</span>
-            </div>
-
-          </div>
-
-          <!-- Proyek 2: Job Setup Verification (Full Stack) -->
-          <div class="proj-card reveal" data-type="fullstack">
-            <div class="proj-img-wrap">
-              <img
-                src="images/projects/job-setup-verification.jpeg"
-                alt="Screenshot Job Setup Verification"
-                class="proj-img"
-                loading="lazy"
-                onerror="
-                  this.classList.add('img-hidden');
-                  this.nextElementSibling.classList.remove('fallback-hidden');
-                "
-                onload="
-                  this.classList.remove('img-hidden');
-                  this.nextElementSibling.classList.add('fallback-hidden');
-                "
-              />
-              <div class="proj-img-fallback fallback-hidden">
-                <div class="fallback-badge">Project Preview</div>
-                <div class="fallback-title" data-i18n="job_setup_fallback_title">Job Setup Verification</div>
-                <div class="fallback-hint" data-i18n="job_setup_fallback_hint">Production workflow system</div>
-              </div>
-            </div>
-            <div class="proj-top">
-              <div class="proj-type-badge">Full Stack</div>
-              <div class="proj-year">2026</div>
-            </div>
-            <div class="proj-title" data-i18n="job_setup_title">Job Setup Verification</div>
-            <div class="proj-subtitle" data-i18n="proj_sub_job_setup">Digital Job Setup Control &amp; Approval Workflow</div>
-            <p class="proj-desc" data-i18n="proj_desc_job_setup">
-              SPMS (Smart Parameter Monitoring System) digitizes Job Setup
-              verification for Form F-PR10-HR09 on the HR7 machine. The system
-              validates Shift 1 and Shift 2 parameters against master standards,
-              records temperature and Release Agent observations, and manages
-              sequential approval by Operator, Section Head, Quality, Engineer,
-              and Admin with digital signatures.
-            </p>
-            <div class="proj-stack">
-              <span class="stack-tag">PHP</span>
-              <span class="stack-tag">MySQL</span>
-              <span class="stack-tag">Session Auth</span>
-              <span class="stack-tag">Responsive UI</span>
             </div>
           </div>
 

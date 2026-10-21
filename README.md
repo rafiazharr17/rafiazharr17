@@ -67,6 +67,17 @@
 
 ## 🚀 Featured Projects
 
+### ✅ Job Setup Verification _(2026)_
+
+> Responsive web application that digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine.
+
+- Centralizes Job Setup parameter input and validates actual values against master standards for Shift 1 and Shift 2
+- Supports temperature and Release Agent observations, role-based workflows, digital signatures, and sequential approval by Operator, Section Head, Quality, Engineer, and Admin
+- Provides parameter master management, revision history, user signature management, document history, detail views, and Job Setup printing
+- **Stack:** PHP · MySQL · Session Authentication · Responsive Web UI
+
+---
+
 ### 📊 Stock Monitoring & Delivery Control _(2026)_
 
 > Live factory control and end-to-end traceability platform for PT. Inoac Polytechno Indonesia. It replaces fragmented spreadsheets and ERP lookups with a LAN-native SPA for real-time delivery, production, inventory, inbound, outbound, and proof-document monitoring across PPIC, Warehouse, and Logistics.
@@ -75,17 +86,6 @@
 - End-to-end flow from **Master Item** and Schedule Production to Finish Good inventory, TPB and Finish Good Receipt, Scan Out, and BMB/BPB proof documents
 - Dedicated authenticated desktop workflows plus public **Shop-Floor TV Displays** for shift handover and at-a-glance operational status
 - **Stack:** React 19 · Vite 8 · TypeScript 6 · Tailwind CSS 3 · Radix UI · Recharts · Framer Motion · Sonner · React Router 7 · Axios · date-fns · Laravel REST API
-
----
-
-### ✅ Job Setup Verification _(2026)_
-
-> SPMS (Smart Parameter Monitoring System), a responsive web application that digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine.
-
-- Centralizes Job Setup parameter input and validates actual values against master standards for Shift 1 and Shift 2
-- Supports temperature and Release Agent observations, role-based workflows, digital signatures, and sequential approval by Operator, Section Head, Quality, Engineer, and Admin
-- Provides parameter master management, revision history, user signature management, document history, detail views, and Job Setup printing
-- **Stack:** PHP · MySQL · MariaDB · Session Authentication · Responsive Web UI
 
 ---
 
