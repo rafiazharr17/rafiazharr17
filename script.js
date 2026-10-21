@@ -410,14 +410,17 @@ function closeCertModal() {
   document.body.style.overflow = "";
 }
 
-// Make certificate cards and images clickable
-document.querySelectorAll(".cert-card").forEach((card) => {
-  card.style.cursor = "pointer";
-  card.addEventListener("click", () => {
-    const img = card.querySelector(".cert-clickable");
-    if (img) {
-      const targetSrc = img.currentSrc || img.src || img.dataset.full;
-      openCertModal(targetSrc, img.alt);
+// Make all website photos clickable.
+document.querySelectorAll(".cert-clickable, .hero-photo, .proj-img").forEach((img) => {
+  img.tabIndex = 0;
+  img.setAttribute("role", "button");
+  img.setAttribute("aria-label", `Buka foto penuh: ${img.alt || "foto"}`);
+  const open = () => openCertModal(img.dataset.full || img.currentSrc || img.src, img.alt);
+  img.addEventListener("click", open);
+  img.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      open();
     }
   });
 });

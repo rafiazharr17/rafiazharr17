@@ -1008,6 +1008,18 @@ section {
   filter: brightness(0.94);
 }
 
+.hero-photo,
+.proj-img {
+  cursor: zoom-in;
+}
+
+.hero-photo:focus-visible,
+.proj-img:focus-visible,
+.cert-clickable:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 4px;
+}
+
 /* ============================================================
    CERTIFICATE LIGHTBOX MODAL
    ============================================================ */

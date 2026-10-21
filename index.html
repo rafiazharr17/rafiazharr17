@@ -217,7 +217,10 @@
         </div>
 
         <div class="hero-photo-wrap">
-          <img src="photo.jpg" alt="Foto Rafi Alif Azhar" class="hero-photo" />
+          <picture>
+            <source media="(max-width: 600px)" srcset="photo-mobile.webp" type="image/webp" />
+            <img src="photo-desktop.webp" alt="Foto Rafi Alif Azhar" class="hero-photo" width="260" height="390" decoding="async" fetchpriority="high" />
+          </picture>
           <div class="hero-photo-badge">
             <span class="available-dot" style="width: 6px; height: 6px"></span>
             Open to Work
