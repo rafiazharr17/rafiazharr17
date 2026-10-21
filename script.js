@@ -44,36 +44,36 @@ const i18nData = {
     mis_asset_title: "Management Information System (MIS) Aset",
     proj_sub_mis_asset: "Manajemen Inventaris Aset TI Terpusat",
     proj_desc_mis_asset:
-      "Aplikasi web berbasis Django untuk mengelola inventaris aset TI, status aset, penanggung jawab, lokasi, dan relasi organisasi dalam satu sistem terpusat. Menyediakan ringkasan dashboard, pencarian multi-atribut, audit trail, identifikasi QR code, dan pencetakan memo aset.",
+      "Sistem Django terpusat untuk mengelola inventaris aset TI, dashboard, pencarian, audit trail, QR code, dan pencetakan memo aset.",
     stock_monitoring_title: "Monitoring Stok &amp; Kontrol Delivery",
     job_setup_title: "Verifikasi Job Setup",
     job_setup_fallback_title: "Verifikasi Job Setup",
     job_setup_fallback_hint: "Sistem alur kerja produksi",
     proj_sub_job_setup: "Kontrol &amp; Alur Approval Job Setup",
     proj_desc_job_setup:
-      "Sistem ini mendigitalisasi verifikasi Job Setup untuk Form F-PR10-HR09 pada mesin HR7. Sistem memvalidasi parameter Shift 1 dan Shift 2 terhadap standar master, mencatat observasi suhu dan Release Agent, serta mengelola approval berurutan oleh Operator, Section Head, Quality, Engineer, dan Admin dengan tanda tangan digital.",
+      "Sistem web untuk memvalidasi parameter Job Setup Shift 1 dan Shift 2 serta mengelola approval digital berurutan pada mesin HR7.",
     proj_sub_1:
       "Sistem Monitoring Produksi, Inventaris &amp; Logistik Real-Time",
     proj_desc_1:
-      "Platform kontrol pabrik dan traceability end-to-end untuk PT. Inoac Polytechno Indonesia. Menggantikan spreadsheet dan pencarian ERP yang terfragmentasi dengan SPA berbasis LAN untuk memantau delivery, produksi, inventory, inbound, outbound, serta dokumen BMB/BPB secara real-time bagi PPIC, Warehouse, dan Logistik. Menyediakan Dashboard Plan, Act, dan On Proses berdasarkan line dan tanggal, termasuk Shop-Floor TV Display tanpa login untuk pemantauan shift.",
+      "Platform kontrol pabrik untuk memantau delivery, produksi, inventory, inbound, outbound, dan dokumen BMB/BPB secara real-time.",
     proj_sub_2: "Website Resmi &amp; Sistem Informasi PPDB Online",
     proj_desc_2:
-      "Proses publikasi profil lembaga dan pendaftaran santri baru (PPDB) di TKQ An Naurah sebelumnya masih manual dan belum terintegrasi sistem digital. Kami merancang platform full-stack menggunakan React 19, Vite, dan Tailwind CSS di sisi frontend, didukung backend REST API Express.js 5, Node.js, dan MySQL yang diamankan otentikasi JWT serta proteksi Helmet. Solusi ini berhasil mengotomatiskan alur PPDB online secara terstruktur sekaligus mempermudah wali santri mengakses info program secara mandiri.",
+      "Website resmi TKQ An Naurah dengan profil lembaga dan sistem PPDB online berbasis React, Express.js, Node.js, dan MySQL.",
     proj_sub_3: "Final Project — Universitas Muhammadiyah Yogyakarta",
     proj_desc_3:
-      "Administrasi akademik dan pendaftaran santri di MIM Troketon sebelumnya terkendala pencatatan manual yang rentan kekeliruan data dan lambat. Kami mengembangkan aplikasi manajemen sekolah full-stack menggunakan Node.js, React.js, Tailwind CSS, dan MySQL dengan modul PPDB online, manajemen nilai, dan penjadwalan terintegrasi. Sistem divalidasi keandalannya melalui Black Box Testing dan mencatatkan evaluasi usability yang tinggi pada pengujian System Usability Scale (SUS).",
+      "Aplikasi manajemen sekolah untuk PPDB online, penjadwalan, dan pengelolaan nilai dengan validasi Black Box Testing dan SUS.",
     proj_sub_4: "Magang — Diskominfo Kab. Bantul",
     proj_desc_4:
-      "Alur antrean layanan publik tatap muka di loket instansi membutuhkan pembaruan nomor pemanggilan instan di monitor display tanpa jeda refresh halaman. Kami mengembangkan aplikasi manajemen antrean real-time berbasis WebSocket yang terhubung ke backend Node.js dan antarmuka modular React.js berarsitektur feature-based. Hasilnya, pemanggilan antrean berlangsung tanpa latensi (zero-delay), meningkatkan efisiensi kerja petugas loket, dan menciptakan ruang tunggu yang tertib bagi masyarakat.",
+      "Aplikasi antrean layanan publik real-time berbasis WebSocket dengan backend Node.js dan antarmuka React.js.",
     proj_sub_5: "Full Stack Web Developer",
     proj_desc_5:
-      "Distribusi modul pembelajaran dan pengumpulan tugas kelas yang tersebar di aplikasi perpesanan menyulitkan pengarsipan serta penilaian tugas siswa. Kami membangun platform LMS terpusat berbasis Laravel, MySQL, dan Tailwind CSS dengan sistem otentikasi aman Laravel Breeze serta Role-Based Access Control (RBAC) untuk 3 role pengguna: Admin, Guru, dan Siswa. Platform ini memusatkan interaksi kelas, repositori modul materi, dan pelacakan tenggat tugas dalam satu portal terstruktur.",
+      "Platform LMS terpusat berbasis Laravel dengan autentikasi Breeze dan akses berbeda untuk Admin, Guru, dan Siswa.",
     proj_sub_6: "Movie Discovery Platform",
     proj_desc_6:
-      "Pengguna sering kali kesulitan menemukan rekomendasi film yang sesuai karena katalog informasi yang kaku dan kurang interaktif. Kami merancang aplikasi web penjelajah film modern berbasis React.js dan Tailwind CSS yang diperkaya animasi mikro mulus dari Framer Motion serta integrasi autentikasi personal pengguna via Supabase. Aplikasi ini menghadirkan pengalaman eksplorasi katalog film yang cepat, responsif, dan kaya visual mulai dari pencarian genre hingga cuplikan trailer.",
+      "Platform penemuan film berbasis React.js dengan pencarian genre, autentikasi Supabase, dan animasi Framer Motion.",
     proj_sub_7: "Brand Landing Page",
     proj_desc_7:
-      "UMKM kuliner Canela Dessert memerlukan media promosi digital multi-halaman yang menarik secara visual untuk memperkuat identitas brand dan memfasilitasi kontak pelanggan. Kami mengembangkan website multi-page responsif berbasis HTML, CSS, dan validasi form interaktif dengan JavaScript murni, lalu di-deploy ke GitHub Pages untuk akses publik instan. Website ini berhasil memperkuat daya tarik visual produk dessert sekaligus menyediakan kanal pemesanan online yang mudah dijangkau konsumen.",
+      "Landing page multi-halaman responsif untuk Canela Dessert dengan validasi form JavaScript dan deployment GitHub Pages.",
     exp_role_1: "MIS / IT Staff Intern",
     exp_period_1: "Agu 2026 – Sekarang",
     exp_point_1_1:
@@ -145,21 +145,21 @@ const i18nData = {
     mis_asset_title: "Management Information System (MIS) Aset",
     proj_sub_mis_asset: "Centralized IT Asset Inventory Management",
     proj_desc_mis_asset:
-      "Django-based web application for managing IT asset inventory, asset status, ownership, locations, and organizational relationships in one centralized system. It provides dashboard summaries, multi-attribute asset search, audit trail, QR code identification, and asset memo printing.",
+      "Centralized Django system for IT asset inventory, dashboards, search, audit trails, QR codes, and asset memo printing.",
     stock_monitoring_title: "Stock Monitoring &amp; Delivery Control",
     job_setup_title: "Job Setup Verification",
     job_setup_fallback_title: "Job Setup Verification",
     job_setup_fallback_hint: "Production workflow system",
     proj_sub_job_setup: "Digital Job Setup Control &amp; Approval Workflow",
     proj_desc_job_setup:
-      "This system digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine. The system validates Shift 1 and Shift 2 parameters against master standards, records temperature and Release Agent observations, and manages sequential approval by Operator, Section Head, Quality, Engineer, and Admin with digital signatures.",
+      "Web system for validating Shift 1 and Shift 2 Job Setup parameters and managing sequential digital approval on the HR7 machine.",
     proj_sub_1:
       "Real-Time Production, Inventory &amp; Logistics Monitoring System",
     proj_desc_1:
       "Replaces manual spreadsheet records at PT. Inoac Polytechno Indonesia Plant #2 with an enterprise real-time monitoring platform built with React 19, TypeScript, and Tailwind CSS integrated via REST API. Features Recharts data visualization and Shop-Floor TV Displays to deliver instant Plan vs Actual metrics and accelerate Finish Good inventory reconciliation across divisions (PPIC, Warehouse, Logistics).",
     proj_sub_2: "Official Website &amp; Online PPDB Information System",
     proj_desc_2:
-      "Previously, institutional profile publishing and student enrollment (PPDB) at TKQ An Naurah were manual and unintegrated. We engineered a full-stack platform using React 19, Vite, and Tailwind CSS on the frontend, powered by an Express.js 5, Node.js, and MySQL REST API secured with JWT authentication and Helmet protection. This automated online PPDB workflows while enabling parents to seamlessly access program details independently.",
+      "Official TKQ An Naurah website with institutional information and an online PPDB system built with React, Express.js, Node.js, and MySQL.",
     proj_sub_3: "Final Project — Universitas Muhammadiyah Yogyakarta",
     proj_desc_3:
       "Academic administration and student enrollment at MIM Troketon previously suffered from error-prone and slow manual record-keeping. We built a full-stack school management web app using Node.js, React.js, Tailwind CSS, and MySQL featuring online PPDB, grade management, and integrated scheduling. The system proved robust through Black Box Testing and achieved high usability scores on System Usability Scale (SUS) evaluations.",
@@ -295,6 +295,34 @@ function setLanguage(lang) {
 
   // Reset typed effect with new language phrases
   resetTypedText();
+}
+
+const themeToggleBtn = document.getElementById("theme-toggle");
+const themeLabel = document.getElementById("theme-label");
+
+function setTheme(theme) {
+  const isDark = theme === "dark";
+  document.documentElement.dataset.theme = isDark ? "dark" : "light";
+  localStorage.setItem("portfolio_theme", isDark ? "dark" : "light");
+  if (themeLabel) themeLabel.textContent = isDark ? "Light" : "Dark";
+  if (themeToggleBtn) {
+    themeToggleBtn.setAttribute(
+      "aria-label",
+      isDark ? "Aktifkan light mode" : "Aktifkan dark mode",
+    );
+  }
+}
+
+const savedTheme = localStorage.getItem("portfolio_theme");
+const preferredTheme =
+  savedTheme ||
+  (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+setTheme(preferredTheme);
+
+if (themeToggleBtn) {
+  themeToggleBtn.addEventListener("click", () => {
+    setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+  });
 }
 
 const langToggleBtn = document.getElementById("lang-toggle");
