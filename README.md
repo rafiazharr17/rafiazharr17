@@ -166,15 +166,7 @@
 
 <div align="center">
 
-![GitHub Contributions](https://github-readme-activity-graph.vercel.app/graph?username=rafiazharr17&theme=tokyo-night&hide_border=true)
-
-</div>
-
-## 👾 Pac-Man Contribution Graph
-
-<div align="center">
-
-![Pac-Man Contribution Graph](https://raw.githubusercontent.com/rafiazharr17/rafiazharr17/output/pacman-contribution-graph.svg)
+![GitHub Contributions](https://ghchart.rshah.org/1D9E75/rafiazharr17)
 
 </div>
 
