@@ -69,12 +69,23 @@
 
 ### 📊 Stock Monitoring & Delivery Control _(2026)_
 
-> Replaces manual spreadsheet records at PT. Inoac Polytechno Indonesia Plant #2 with an enterprise real-time monitoring platform built with React 19, TypeScript, and Tailwind CSS integrated via REST API. Features Recharts data visualization and Shop-Floor TV Displays to deliver instant Plan vs Actual metrics and accelerate Finish Good inventory reconciliation across divisions (PPIC, Warehouse, Logistics).
+> Live factory control and end-to-end traceability platform for PT. Inoac Polytechno Indonesia. It replaces fragmented spreadsheets and ERP lookups with a LAN-native SPA for real-time delivery, production, inventory, inbound, outbound, and proof-document monitoring across PPIC, Warehouse, and Logistics.
 
-- Enterprise web platform built with **React 19**, **TypeScript**, **Vite**, and **Tailwind CSS** consuming centralized REST APIs
-- Features dynamic **Recharts** operational data telemetry and dedicated **Shop-Floor TV Displays** for plant-wide wall monitors
-- Instant Plan vs Actual metric visibility, accelerating Finish Good stock reconciliation and streamlining daily coordination across PPIC, Warehouse, and Logistics
-- **Stack:** React 19 · TypeScript · Vite · Tailwind CSS · Recharts · REST API
+- Real-time Dashboard for **On Time Delivery**, **On Due Date Delivery**, and **Production Monitoring** with Plan, Act, and On Proses visibility by line and date
+- End-to-end flow from **Master Item** and Schedule Production to Finish Good inventory, TPB and Finish Good Receipt, Scan Out, and BMB/BPB proof documents
+- Dedicated authenticated desktop workflows plus public **Shop-Floor TV Displays** for shift handover and at-a-glance operational status
+- **Stack:** React 19 · Vite 8 · TypeScript 6 · Tailwind CSS 3 · Radix UI · Recharts · Framer Motion · Sonner · React Router 7 · Axios · date-fns · Laravel REST API
+
+---
+
+### ✅ Job Setup Verification _(2026)_
+
+> SPMS (Smart Parameter Monitoring System), a responsive web application that digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine.
+
+- Centralizes Job Setup parameter input and validates actual values against master standards for Shift 1 and Shift 2
+- Supports temperature and Release Agent observations, role-based workflows, digital signatures, and sequential approval by Operator, Section Head, Quality, Engineer, and Admin
+- Provides parameter master management, revision history, user signature management, document history, detail views, and Job Setup printing
+- **Stack:** PHP · MySQL · MariaDB · Session Authentication · Responsive Web UI
 
 ---
 

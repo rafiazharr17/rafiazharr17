@@ -39,10 +39,17 @@ const i18nData = {
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
     fallback_hint: "Screenshot Segera Hadir",
+    stock_monitoring_title: "Monitoring Stok &amp; Kontrol Delivery",
+    job_setup_title: "Verifikasi Job Setup",
+    job_setup_fallback_title: "Verifikasi Job Setup",
+    job_setup_fallback_hint: "Sistem alur kerja produksi",
+    proj_sub_job_setup: "Kontrol &amp; Alur Approval Job Setup",
+    proj_desc_job_setup:
+      "Sistem ini mendigitalisasi verifikasi Job Setup untuk Form F-PR10-HR09 pada mesin HR7. Sistem memvalidasi parameter Shift 1 dan Shift 2 terhadap standar master, mencatat observasi suhu dan Release Agent, serta mengelola approval berurutan oleh Operator, Section Head, Quality, Engineer, dan Admin dengan tanda tangan digital.",
     proj_sub_1:
       "Sistem Monitoring Produksi, Inventaris &amp; Logistik Real-Time",
     proj_desc_1:
-      "Menggantikan pencatatan spreadsheet manual di PT. Inoac Polytechno Indonesia Plant #2 dengan platform monitoring real-time berbasis React 19, TypeScript, dan Tailwind CSS yang terintegrasi REST API. Dilengkapi visualisasi Recharts dan Shop-Floor TV Display untuk menyajikan metrik Plan vs Actual secara instan serta mempercepat rekonsiliasi stok Finish Good lintas divisi (PPIC, Warehouse, Logistik).",
+      "Platform kontrol pabrik dan traceability end-to-end untuk PT. Inoac Polytechno Indonesia. Menggantikan spreadsheet dan pencarian ERP yang terfragmentasi dengan SPA berbasis LAN untuk memantau delivery, produksi, inventory, inbound, outbound, serta dokumen BMB/BPB secara real-time bagi PPIC, Warehouse, dan Logistik. Menyediakan Dashboard Plan, Act, dan On Proses berdasarkan line dan tanggal, termasuk Shop-Floor TV Display tanpa login untuk pemantauan shift.",
     proj_sub_2: "Website Resmi &amp; Sistem Informasi PPDB Online",
     proj_desc_2:
       "Proses publikasi profil lembaga dan pendaftaran santri baru (PPDB) di TKQ An Naurah sebelumnya masih manual dan belum terintegrasi sistem digital. Kami merancang platform full-stack menggunakan React 19, Vite, dan Tailwind CSS di sisi frontend, didukung backend REST API Express.js 5, Node.js, dan MySQL yang diamankan otentikasi JWT serta proteksi Helmet. Solusi ini berhasil mengotomatiskan alur PPDB online secara terstruktur sekaligus mempermudah wali santri mengakses info program secara mandiri.",
@@ -64,11 +71,9 @@ const i18nData = {
     exp_role_1: "MIS / IT Staff Intern",
     exp_period_1: "Agu 2026 – Sekarang",
     exp_point_1_1:
-      "Merancang dan mengembangkan frontend enterprise <strong>Stock Monitoring &amp; Delivery Control</strong> menggunakan React 19, TypeScript, Vite, dan Tailwind CSS.",
+      "Mengembangkan frontend enterprise untuk <strong>Stock Monitoring &amp; Delivery Control</strong> dengan React 19, TypeScript, Vite, dan Tailwind CSS, termasuk Dashboard Plan vs Actual vs On Process serta Shop-Floor TV Display untuk kebutuhan PPIC, Warehouse, dan Logistik.",
     exp_point_1_2:
-      "Mengintegrasikan sistem Shop-Floor TV Display dan visualisasi Recharts untuk monitoring metrik Plan vs Actual vs On Process secara real-time pada monitor dinding pabrik.",
-    exp_point_1_3:
-      "Mengoptimalkan koordinasi operasional harian lintas divisi (PPIC, Warehouse, Logistik) serta mempercepat proses rekonsiliasi stok Finish Good.",
+      "Mengembangkan <strong>Job Setup Verification</strong> untuk mendigitalisasi verifikasi Form F-PR10-HR09 pada mesin HR7, mencakup validasi parameter Shift 1 dan Shift 2, observasi suhu dan Release Agent, serta approval berurutan dengan tanda tangan digital menggunakan PHP dan MySQL.",
     certs_title: 'Sertifikasi <span class="muted">&amp; Pencapaian</span>',
     exp_title: 'Pengalaman <span class="muted">&amp; Pendidikan</span>',
     testi_label: "Recommendations",
@@ -123,6 +128,13 @@ const i18nData = {
     link_github_be: "GitHub Backend →",
     link_github_fe: "GitHub Frontend →",
     fallback_hint: "Screenshot Coming Soon",
+    stock_monitoring_title: "Stock Monitoring &amp; Delivery Control",
+    job_setup_title: "Job Setup Verification",
+    job_setup_fallback_title: "Job Setup Verification",
+    job_setup_fallback_hint: "Production workflow system",
+    proj_sub_job_setup: "Digital Job Setup Control &amp; Approval Workflow",
+    proj_desc_job_setup:
+      "This system digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine. The system validates Shift 1 and Shift 2 parameters against master standards, records temperature and Release Agent observations, and manages sequential approval by Operator, Section Head, Quality, Engineer, and Admin with digital signatures.",
     proj_sub_1:
       "Real-Time Production, Inventory &amp; Logistics Monitoring System",
     proj_desc_1:
@@ -148,11 +160,9 @@ const i18nData = {
     exp_role_1: "MIS / IT Staff Intern",
     exp_period_1: "Aug 2026 – Present",
     exp_point_1_1:
-      "Engineered enterprise frontend for <strong>Stock Monitoring &amp; Delivery Control</strong> using React 19, TypeScript, Vite, and Tailwind CSS.",
+      "Engineered the enterprise frontend for <strong>Stock Monitoring &amp; Delivery Control</strong> using React 19, TypeScript, Vite, and Tailwind CSS, including Plan vs Actual vs On Process dashboards and Shop-Floor TV Displays for PPIC, Warehouse, and Logistics operations.",
     exp_point_1_2:
-      "Integrated Shop-Floor TV Display and Recharts visualizations for real-time Plan vs Actual vs On Process monitoring on factory wall displays.",
-    exp_point_1_3:
-      "Streamlined daily operational coordination across PPIC, Warehouse, and Logistics divisions while accelerating Finish Good inventory reconciliation.",
+      "Developed <strong>Job Setup Verification</strong> to digitize Form F-PR10-HR09 verification for the HR7 machine, covering Shift 1 and Shift 2 parameter validation, temperature and Release Agent observations, and sequential approval with digital signatures using PHP and MySQL.",
     certs_title: 'Certifications <span class="muted">&amp; Credentials</span>',
     exp_title: 'Experience <span class="muted">&amp; Education</span>',
     testi_label: "Recommendations",
@@ -271,10 +281,8 @@ if (langToggleBtn) {
   });
 }
 
-// Initialize saved language if different from 'id'
-if (currentLang !== "id") {
-  setLanguage(currentLang);
-}
+// Apply the saved language on first render, including the default Indonesian locale.
+setLanguage(currentLang);
 
 // ─── SCROLL REVEAL ───────────────────────────────────────────
 const revealObserver = new IntersectionObserver(

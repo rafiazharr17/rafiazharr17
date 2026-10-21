@@ -369,59 +369,81 @@
               <div class="proj-type-badge">Frontend</div>
               <div class="proj-year">2026</div>
             </div>
-            <div class="proj-title">
+            <div class="proj-title" data-i18n="stock_monitoring_title">
               Stock Monitoring &amp; Delivery Control
             </div>
             <div class="proj-subtitle" data-i18n="proj_sub_1">
-              Sistem Monitoring Produksi, Inventaris &amp; Logistik Real-Time
+              Sistem Kontrol Pabrik &amp; Traceability End-to-End
             </div>
             <p class="proj-desc" data-i18n="proj_desc_1">
-              Menggantikan pencatatan spreadsheet manual di PT. Inoac Polytechno
-              Indonesia Plant #2 dengan platform monitoring real-time berbasis
-              React 19, TypeScript, dan Tailwind CSS yang terintegrasi REST API.
-              Dilengkapi visualisasi Recharts dan Shop-Floor TV Display untuk
-              menyajikan metrik Plan vs Actual secara instan serta mempercepat
-              rekonsiliasi stok Finish Good lintas divisi (PPIC, Warehouse,
-              Logistik).
+              Platform kontrol pabrik dan traceability end-to-end untuk PT. Inoac
+              Polytechno Indonesia. Menggantikan spreadsheet dan pencarian ERP
+              yang terfragmentasi dengan SPA berbasis LAN untuk memantau delivery,
+              produksi, inventory, inbound, outbound, serta dokumen BMB/BPB secara
+              real-time bagi PPIC, Warehouse, dan Logistik. Menyediakan Dashboard
+              Plan, Act, dan On Proses berdasarkan line dan tanggal, termasuk
+              Shop-Floor TV Display tanpa login untuk pemantauan shift.
             </p>
             <div class="proj-stack">
               <span class="stack-tag">React 19</span>
-              <span class="stack-tag">TypeScript</span>
-              <span class="stack-tag">Vite</span>
-              <span class="stack-tag">Tailwind CSS</span>
+              <span class="stack-tag">Vite 8</span>
+              <span class="stack-tag">TypeScript 6</span>
+              <span class="stack-tag">Tailwind CSS 3</span>
               <span class="stack-tag">Recharts</span>
-              <span class="stack-tag">REST API</span>
+              <span class="stack-tag">Framer Motion</span>
+              <span class="stack-tag">React Router 7</span>
+              <span class="stack-tag">Axios</span>
+              <span class="stack-tag">Laravel REST API</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
+
+          </div>
+
+          <!-- Proyek 2: Job Setup Verification (Full Stack) -->
+          <div class="proj-card reveal" data-type="fullstack">
+            <div class="proj-img-wrap">
+              <img
+                src="images/projects/job-setup-verification.jpeg"
+                alt="Screenshot Job Setup Verification"
+                class="proj-img"
+                loading="lazy"
+                onerror="
+                  this.classList.add('img-hidden');
+                  this.nextElementSibling.classList.remove('fallback-hidden');
+                "
+                onload="
+                  this.classList.remove('img-hidden');
+                  this.nextElementSibling.classList.add('fallback-hidden');
+                "
+              />
+              <div class="proj-img-fallback fallback-hidden">
+                <div class="fallback-badge">Project Preview</div>
+                <div class="fallback-title" data-i18n="job_setup_fallback_title">Job Setup Verification</div>
+                <div class="fallback-hint" data-i18n="job_setup_fallback_hint">Production workflow system</div>
+              </div>
+            </div>
+            <div class="proj-top">
+              <div class="proj-type-badge">Full Stack</div>
+              <div class="proj-year">2026</div>
+            </div>
+            <div class="proj-title" data-i18n="job_setup_title">Job Setup Verification</div>
+            <div class="proj-subtitle" data-i18n="proj_sub_job_setup">Digital Job Setup Control &amp; Approval Workflow</div>
+            <p class="proj-desc" data-i18n="proj_desc_job_setup">
+              SPMS (Smart Parameter Monitoring System) digitizes Job Setup
+              verification for Form F-PR10-HR09 on the HR7 machine. The system
+              validates Shift 1 and Shift 2 parameters against master standards,
+              records temperature and Release Agent observations, and manages
+              sequential approval by Operator, Section Head, Quality, Engineer,
+              and Admin with digital signatures.
+            </p>
+            <div class="proj-stack">
+              <span class="stack-tag">PHP</span>
+              <span class="stack-tag">MySQL</span>
+              <span class="stack-tag">Session Auth</span>
+              <span class="stack-tag">Responsive UI</span>
             </div>
           </div>
 
-          <!-- Proyek 2: Website TKQ An Naurah (Full Stack) -->
+          <!-- Proyek 3: Website TKQ An Naurah (Full Stack) -->
           <div class="proj-card reveal" data-type="fullstack">
             <div class="proj-img-wrap">
               <img
@@ -548,33 +570,7 @@
               <span class="stack-tag">Tailwind</span>
               <span class="stack-tag">SUS Testing</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
-            </div>
+
           </div>
 
           <!-- Proyek 4: Queue Management App -->
@@ -624,33 +620,7 @@
               <span class="stack-tag">React.js</span>
               <span class="stack-tag">MySQL</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
-            </div>
+
           </div>
 
           <!-- Proyek 5: MateriKu — Learning Platform -->
@@ -700,33 +670,7 @@
               <span class="stack-tag">MySQL</span>
               <span class="stack-tag">Tailwind</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
-            </div>
+
           </div>
 
           <!-- Proyek 6: Cloud Hotstar -->
@@ -776,33 +720,7 @@
               <span class="stack-tag">Framer Motion</span>
               <span class="stack-tag">Tailwind</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
-            </div>
+
           </div>
 
           <!-- Proyek 7: Canela Dessert -->
@@ -852,33 +770,7 @@
               <span class="stack-tag">JavaScript</span>
               <span class="stack-tag">GitHub Pages</span>
             </div>
-            <div class="proj-links">
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="btn-demo"
-                data-i18n="btn_demo"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  width="13"
-                  height="13"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path>
-                  <polyline points="15 3 21 3 21 9"></polyline>
-                  <line x1="10" y1="14" x2="21" y2="3"></line>
-                </svg>
-                <span>Live Demo</span>
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -1038,19 +930,18 @@
             </div>
             <ul class="tl-points">
               <li data-i18n="exp_point_1_1">
-                Merancang dan mengembangkan frontend enterprise
-                <strong>Stock Monitoring &amp; Delivery Control</strong>
-                menggunakan React 19, TypeScript, Vite, dan Tailwind CSS.
+                Mengembangkan frontend enterprise untuk
+                <strong>Stock Monitoring &amp; Delivery Control</strong> dengan
+                React 19, TypeScript, Vite, dan Tailwind CSS, termasuk
+                Dashboard Plan vs Actual vs On Process serta Shop-Floor TV
+                Display untuk kebutuhan PPIC, Warehouse, dan Logistik.
               </li>
               <li data-i18n="exp_point_1_2">
-                Mengintegrasikan sistem Shop-Floor TV Display dan visualisasi
-                Recharts untuk monitoring metrik Plan vs Actual vs On Process
-                secara real-time pada monitor dinding pabrik.
-              </li>
-              <li data-i18n="exp_point_1_3">
-                Mengoptimalkan koordinasi operasional harian lintas divisi
-                (PPIC, Warehouse, Logistik) serta mempercepat proses
-                rekonsiliasi stok Finish Good.
+                Mengembangkan <strong>Job Setup Verification</strong> untuk
+                mendigitalisasi verifikasi Form F-PR10-HR09 pada mesin HR7,
+                mencakup validasi parameter Shift 1 dan Shift 2, observasi suhu
+                dan Release Agent, serta approval berurutan dengan tanda tangan
+                digital menggunakan PHP dan MySQL.
               </li>
             </ul>
           </div>
