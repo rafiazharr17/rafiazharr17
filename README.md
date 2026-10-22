@@ -167,7 +167,7 @@
 
 </div>
 
-## Statistics
+## 📈 Contributions in the Last Year
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=rafiazharr17&locale=en&mode=daily&theme=vue-dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
@@ -211,6 +211,6 @@ Feel free to reach out — I'd love to talk!
 
 _"Clean code, scalable architecture, and user-first design."_
 
-![Profile Views](https://komarev.com/ghpvc/?username=rafiazharr17&color=1D9E75&style=flat-square)
+![Profile Views](https://hits.sh/github.com/rafiazharr17.svg?style=flat-square&color=1D9E75&label=Profile%20Views)
 
 </div>
