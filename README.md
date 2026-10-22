@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=timeGradient&section=header&reversal=true&textBg=false&fontSize=70&fontAlign=50&fontAlignY=50&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=125&color=timeGradient&section=header&reversal=true&textBg=false&fontSize=70&fontAlign=50&fontAlignY=50&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60">
 
 <div align="center">
 
@@ -122,4 +122,4 @@ _"Clean code, scalable architecture, and user-first design."_
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=timeGradient&section=footer&reversal=true&textBg=false&fontSize=70&fontAlign=50&fontAlignY=50&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=125&color=timeGradient&section=footer&reversal=true&textBg=false&fontSize=70&fontAlign=50&fontAlignY=50&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60">
