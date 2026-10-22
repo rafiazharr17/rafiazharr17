@@ -37,8 +37,8 @@
 
 ![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite)
 <br/>
-![Recharts](https://img.shields.io/badge/%20-242938?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3QgeD0iMyIgeT0iMTIiIHdpZHRoPSI1IiBoZWlnaHQ9IjkiIHJ4PSIxIiBmaWxsPSIjMjJCNUJGIi8%2BPHJlY3QgeD0iMTAiIHk9IjQiIHdpZHRoPSI1IiBoZWlnaHQ9IjE3IiByeD0iMSIgZmlsbD0iIzg4ODREOCIvPjxyZWN0IHg9IjE3IiB5PSI4IiB3aWR0aD0iNSIgaGVpZ2h0PSIxMyIgcng9IjEiIGZpbGw9IiM4MkNBOUQiLz48L3N2Zz4%3D&logoSize=auto)
-![Framer Motion](https://img.shields.io/badge/%20-242938?style=for-the-badge&logo=framer&logoColor=white&logoSize=auto)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=recharts&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### Backend & API
 
@@ -52,7 +52,7 @@
 
 ![Tools and Deployment](https://skillicons.dev/icons?i=git,github,docker,nginx,cloudflare,githubactions,postman,supabase)
 <br/>
-![Railway](https://img.shields.io/badge/%20-242938?style=for-the-badge&logo=railway&logoColor=white&logoSize=auto)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 
 ---
 
