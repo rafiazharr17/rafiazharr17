@@ -35,7 +35,10 @@
 
 ### Frontend
 
-![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,recharts,framer)
+![Frontend](https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite)
+<br/>
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=recharts&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 ### Backend & API
 
@@ -47,7 +50,9 @@
 
 ### Tools & Deployment
 
-![Tools and Deployment](https://skillicons.dev/icons?i=git,github,docker,nginx,cloudflare,railway,githubactions,postman,supabase)
+![Tools and Deployment](https://skillicons.dev/icons?i=git,github,docker,nginx,cloudflare,githubactions,postman,supabase)
+<br/>
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 
 ---
 
