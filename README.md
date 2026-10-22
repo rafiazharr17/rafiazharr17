@@ -58,104 +58,17 @@
 
 ## 🚀 Featured Projects
 
-### 🖥️ Management Information System (MIS) Aset _(2026)_
-
-> Django-based web application for managing IT asset inventory, asset status, ownership, locations, and organizational relationships in one centralized system.
-
-- Centralized asset inventory dashboard with summaries by type, status, condition, department, and location
-- Multi-attribute asset search covering asset code, serial number, MAC address, IP address, brand, user, department, location, and software
-- Asset detail pages with hardware specifications, software records, QR code identification, audit trail, and change history
-- Supports asset registration, duplicate serial/MAC validation, QR label generation, and asset memo printing
-- **Stack:** Python 3.11 · Django 5.2 · Django REST Framework · PostgreSQL 14 · Django Templates · Tailwind CSS · Docker · Nginx
-
----
-
-### ✅ Job Setup Verification _(2026)_
-
-> Responsive web application that digitizes Job Setup verification for Form F-PR10-HR09 on the HR7 machine.
-
-- Centralizes Job Setup parameter input and validates actual values against master standards for Shift 1 and Shift 2
-- Supports temperature and Release Agent observations, role-based workflows, digital signatures, and sequential approval by Operator, Section Head, Quality, Engineer, and Admin
-- Provides parameter master management, revision history, user signature management, document history, detail views, and Job Setup printing
-- **Stack:** PHP · MySQL · Session Authentication · Responsive Web UI
-
----
-
-### 📊 Stock Monitoring & Delivery Control _(2026)_
-
-> Live factory control and end-to-end traceability platform for PT. Inoac Polytechno Indonesia. It replaces fragmented spreadsheets and ERP lookups with a LAN-native SPA for real-time delivery, production, inventory, inbound, outbound, and proof-document monitoring across PPIC, Warehouse, and Logistics.
-
-- Real-time Dashboard for **On Time Delivery**, **On Due Date Delivery**, and **Production Monitoring** with Plan, Act, and On Proses visibility by line and date
-- End-to-end flow from **Master Item** and Schedule Production to Finish Good inventory, TPB and Finish Good Receipt, Scan Out, and BMB/BPB proof documents
-- Dedicated authenticated desktop workflows plus public **Shop-Floor TV Displays** for shift handover and at-a-glance operational status
-- **Stack:** React 19 · Vite 8 · TypeScript 6 · Tailwind CSS 3 · Radix UI · Recharts · Framer Motion · Sonner · React Router 7 · Axios · date-fns · Laravel REST API
-
----
-
-### 🕌 Website TKQ An Naurah – Official Portal & Online PPDB _(2026)_
-
-> Official institutional website and digital student enrollment (PPDB Online) system for TKQ An-Naurah Islamic School.
-
-- Full-stack school portal featuring institutional profile, curriculum showcase, and automated digital PPDB registration
-- Secure backend REST API powered by **Express.js 5**, **Node.js**, and **MySQL** with JWT authentication & Helmet security protection
-- Modern, high-performance frontend built with **React 19**, **Vite**, **Tailwind CSS v4**, Sonner toasts, and flatpickr
-- Deployed and live in production: [TKQ An-Naurah Islamic School](https://annaurahislamicschool.sch.id/) via **Cloudflare Pages** (Frontend) & **Railway** (Backend)
-- **Stack:** React 19 · Vite · Express.js 5 · Node.js · MySQL · Tailwind CSS v4 · Cloudflare Pages · Railway
-- 🔗 [Live Demo](https://annaurahislamicschool.sch.id/) · [Repository](https://github.com/rafiazharr17/website-tkq-annaurah)
-
----
-
-### 🏫 School Management Web App _(Feb 2026 – Apr 2026)_
-
-> Final project — full digitalization of administrative processes for MIM Troketon.
-
-- Online PPDB (student enrollment), scheduling, and grade management
-- Black Box Testing + SUS evaluation for system quality assurance
-- **Stack:** Node.js · React.js · MySQL · Tailwind CSS
-- 🔗 [Backend](https://github.com/rafiazharr17/backend-MIMTroketon.git) · [Frontend](https://github.com/rafiazharr17/frontend-MIMTroketon.git)
-
----
-
-### 🏛️ Public Service Queue Management App _(Nov 2025 – Dec 2025)_
-
-> Developed during internship at Bantul Regency Dept. of Communications & IT.
-
-- Real-time queue monitoring via **WebSocket** for public service counters
-- Feature-based architecture for scalable, maintainable codebase
-- **Stack:** Laravel · WebSocket · React.js · MySQL
-- 🔗 [Backend](https://github.com/Defarrel/backend_antrean_mpp.git) · [Frontend](https://github.com/rafiazharr17/counter-frontend.git)
-
----
-
-### 📚 MateriKu – Learning Platform _(May 2025 – Jun 2025)_
-
-> Centralized learning management system with role-based access control.
-
-- Roles: Admin, Teacher, Student — each with distinct permissions
-- Authentication via Laravel Breeze
-- **Stack:** Laravel · Tailwind CSS · MySQL
-- 🔗 [Repository](https://github.com/rafiazharr17/platform-pembelajaran.git)
-
----
-
-### 🎬 Cloud Hotstar – Movie Discovery _(Aug 2024 – Sep 2024)_
-
-> Browse movies by genre, explore cast & trailers with smooth animations.
-
-- Framer Motion animations for fluid user experience
-- Supabase auth for personalized, secure access
-- **Stack:** React.js · Supabase · Tailwind CSS
-- 🔗 [Repository](https://github.com/rafiazharr17/cloud_hotstar.git)
-
----
-
-### 🍰 Canela Dessert – Landing Page _(Aug 2024 – Sep 2024)_
-
-> Responsive multi-page static website for a dessert brand.
-
-- JavaScript form validation + deployed on GitHub Pages
-- **Stack:** HTML · CSS · JavaScript
-- 🔗 [Repository](https://github.com/rafiazharr17/UCP2-2.git)
+| Project | Description | Stack | Links |
+| ------- | ----------- | ----- | ----- |
+| 🖥️ **MIS Aset** _(2026)_ | Django web app for managing IT asset inventory: dashboard summaries, multi-attribute search, QR code labels, audit trail, and change history. | Python · Django 5.2 · DRF · PostgreSQL · Tailwind CSS · Docker · Nginx | – |
+| ✅ **Job Setup Verification** _(2026)_ | Digitizes Form F-PR10-HR09 for the HR7 machine, with parameter validation, digital signatures, and sequential approval workflow. | PHP · MySQL · Session Auth | – |
+| 📊 **Stock Monitoring & Delivery Control** _(2026)_ | Real-time factory control platform for PT. Inoac Polytechno Indonesia: delivery, production, and inventory dashboards plus shop-floor TV displays. | React 19 · Vite · TypeScript · Tailwind CSS · Recharts · Laravel REST API | – |
+| 🕌 **TKQ An Naurah Portal & PPDB** _(2026)_ | Official school website with online student enrollment, JWT-secured REST API, deployed in production. | React 19 · Express.js 5 · MySQL · Cloudflare Pages · Railway | [Live](https://annaurahislamicschool.sch.id/) · [Repo](https://github.com/rafiazharr17/website-tkq-annaurah) |
+| 🏫 **School Management Web App** _(Feb – Apr 2026)_ | Final project: digitalizing MIM Troketon administration (PPDB, scheduling, grades), tested with Black Box Testing and SUS. | Node.js · React.js · MySQL · Tailwind CSS | [Backend](https://github.com/rafiazharr17/backend-MIMTroketon.git) · [Frontend](https://github.com/rafiazharr17/frontend-MIMTroketon.git) |
+| 🏛️ **Public Service Queue App** _(Nov – Dec 2025)_ | Internship project at Bantul Regency Dept. of Communications & IT with real-time queue monitoring via WebSocket. | Laravel · WebSocket · React.js · MySQL | [Backend](https://github.com/Defarrel/backend_antrean_mpp.git) · [Frontend](https://github.com/rafiazharr17/counter-frontend.git) |
+| 📚 **MateriKu** _(May – Jun 2025)_ | Learning management system with Admin, Teacher, and Student roles. | Laravel · Tailwind CSS · MySQL | [Repo](https://github.com/rafiazharr17/platform-pembelajaran.git) |
+| 🎬 **Cloud Hotstar** _(Aug – Sep 2024)_ | Movie discovery by genre with cast, trailers, Framer Motion animations, and Supabase auth. | React.js · Supabase · Tailwind CSS | [Repo](https://github.com/rafiazharr17/cloud_hotstar.git) |
+| 🍰 **Canela Dessert** _(Aug – Sep 2024)_ | Responsive multi-page static website for a dessert brand, deployed on GitHub Pages. | HTML · CSS · JavaScript | [Repo](https://github.com/rafiazharr17/UCP2-2.git) |
 
 ---
 
